@@ -30,7 +30,7 @@ void insertatHead(int x)
 void reverseprint()
 {
 	Node* temp=head;
-	while(temp->next!=NULL)
+	while(temp->next!=NULL)          //linked list
 	{
 		temp=temp->next;
 	}
