@@ -21,7 +21,7 @@ void insertatHead(int x)
 		return;
 	}
 	temp->data=x;
-	temp->next=head;
+	temp->next=head;                   //linked list
 	head=temp;
 	temp->next->prev=temp;
 	temp->prev=NULL;
